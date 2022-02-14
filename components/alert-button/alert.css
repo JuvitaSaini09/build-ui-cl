@@ -5,6 +5,7 @@
     --white-light:#d4d4d4;
     --grey-light:#a3a3a3;
     --black-light:#404040;
+    --white-less1:rgb(248, 244, 244);
    
 }
 alert-container{
@@ -13,9 +14,9 @@ alert-container{
     align-items:flex-start;
     margin-left:0;
     border:1px solid grey;
-    padding:25px;
+    padding:1.5rem;
     width:fit-content;
-    background-color: rgb(248, 244, 244);
+    background-color: var(--white-less1);
       
 }
 
@@ -23,7 +24,7 @@ alert-container{
     width:25rem;
     padding: 10px;
     text-align:left;
-    flex-basis:50px;
+    flex-basis:3.1rem;
     margin-bottom:0.5rem;
     border-radius:5px;
 } 
@@ -66,12 +67,12 @@ alert-container{
 
 @media screen and (max-width:952px){
     .alert{
-        width:300px;
+        width:18.7px;
     }
 }
 
 @media screen and (max-width:658px){
     .alert{
-        width:250px;
+        width:15.6rem;
     }
 }

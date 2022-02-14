@@ -1,7 +1,7 @@
 
 .btn-container{
     border:1px solid grey;
-    padding:25px;
+    padding:1.56rem;
     width:fit-content;
     background-color: rgb(248, 244, 244);
 }
@@ -9,7 +9,7 @@
     color:white;
     border:none;
     height:40px;
-    width:90px;
+    width:5.6rem;
     border-radius:4px;
     margin:0.3rem;
     cursor: pointer;
@@ -149,5 +149,5 @@ border-radius:50%;
 }
 
 .my-float{
-	margin-top:22px;
+	margin-top:1.3rem;
 }
