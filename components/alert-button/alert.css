@@ -23,7 +23,7 @@ alert-container{
 .alert{
     width:25rem;
     padding: 10px;
-    text-align:left;
+    justify-content: flex-start;
     flex-basis:3.1rem;
     margin-bottom:0.5rem;
     border-radius:5px;
@@ -67,7 +67,7 @@ alert-container{
 
 @media screen and (max-width:952px){
     .alert{
-        width:18.7px;
+        width:18.7rem;
     }
 }
 
