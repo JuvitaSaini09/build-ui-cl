@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/main.css">
+    <script src="https://kit.fontawesome.com/9c98d67da5.js" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/9c98d67da5.js" crossorigin="anonymous"></script>
+    <title>Avatar</title>
+</head>
+
+<body>
+
+    <nav>
+        <logo class="logo">BuildUI</logo>
+        <ul class="nav-links">
+            <li><a href="#">HOME</a></li>
+            <li><a href="#">DOCUMENTATION</a></li>
+        </ul>
+    </nav>
+
+    <input type="checkbox" id="check">
+    <label for="check"><i class="fas fa-bars" id="btn"></i><i class="fas fa-times" id="cancel"></i></label>
+
+    <div class="side-drawer">
+        <ul>
+            <header>Components</header>
+            <li><a href="/components/html/alert.html">Alert</a></li>
+            <li><a href="/components/html/avatar.html">Avatar</a></li>
+            <li><a href="/components/html/badge.html">Badge</a></li>
+            <li><a href="#">Button</a></li>
+            <li><a href="/components/html/card.html">Card</a></li>
+            <li><a href="/components/html/image.html">Image</a></li>
+            <li><a href="/components/html/input.html">Input</a></li>
+            <li><a href="/components/html/text-ut.html">Text Utilities</a></li>
+            <li><a href="/components/html/list.html">Lists</a></li>
+            <li><a href="/components/html/nav.html">Navigation-Desktop</a></li>
+            <li><a href="/components/html/modal.html">Modal</a></li>
+            <li><a href="/components/html/rating.html">Rating</a></li>
+            <li><a href="/components/html/toast.html">Toast/Snackbar</a></li>
+            <li><a href="/components/html/card.html">Simplified Grid</a></li>
+        </ul>
+    </div>
+
+    <div class="Component-container">
+
+        <!---------button componenet-------->
+        <div class="text  mt2" id="button">
+            <h2 class="pb1 h1 comp-title">Buttons</h2><br>
+            <p class="pb2">Custom button styles for actions in forms,
+                dialogs, and more with support for multiple sizes, states,
+                and more.</p>
+            <h2>Examples</h2>
+        </div>`
+            <!------------------------------->
+            <!-----------buttons------------->
+            <!------------------------------->
+            <div class="buttons-container mt2 pb2">
+
+                <!-- solid buttons
+        1) Primary 
+        2) secodary 
+        3) success  
+        4) warning 
+        5) Danger 
+                 -->
+
+                <!-- solid-->
+                <h2 class="grey mb2">Primary Buttons</h2>
+                <h3>Solid Buttons</h3><br>
+                <div class="btn-container">
+                <button class="btn primary-btn">Primary</button>
+                <button class="btn secondary-btn">Secondary</button>
+                <button class="btn success-btn">Success</button>
+                <button class="btn warning-btn">Warning</button>
+                <button class="btn danger-btn">Danger</button>
+                </div>
+                <br> <br>
+                <div id="frame">
+                    <iframe
+                        src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=vscode&wt=none&l=auto&width=680&ds=true&dsyoff=61px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cbutton%2520class%253D%2522btn%2520primary-btn%2522%253EPrimary%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn%2520secondary-btn%2522%253ESecondary%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn%2520success-btn%2522%253ESuccess%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn%2520warning-btn%2522%253EWarning%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn%2520danger-btn%2522%253EDanger%253C%252Fbutton%253E%250A"
+                        style=" height: 200px; border:0; transform: scale(1); overflow:hidden;"
+                        sandbox="allow-scripts allow-same-origin">
+                    </iframe>
+                </div>
+
+                <!-- solid outline-->
+
+                <br><br>
+                <h3>Outline Buttons</h3><br>
+                <div class="btn-container">
+                <button class="btn outline-primary-btn">Primary</button>
+                <button class="btn outline-secondary-btn">Secondary</button>
+                <button class="btn outline-success-btn">Success</button>
+                <button class="btn outline-warning-btn">Warning</button>
+                <button class="btn outline-danger-btn">Danger</button>
+            </div>
+                <br><br>
+
+                <div >
+                    <iframe id="frame"
+                        src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=vscode&wt=none&l=auto&width=680&ds=true&dsyoff=61px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%2520%2520%253Cbutton%2520class%253D%2522btn%2520outline-primary-btn%2522%253EPrimary%253C%252Fbutton%253E%250A%2520%2520%253Cbutton%2520class%253D%2522btn%2520outline-secondary-btn%2522%253ESecondary%253C%252Fbutton%253E%250A%2520%2520%253Cbutton%2520class%253D%2522btn%2520outline-success-btn%2522%253ESuccess%253C%252Fbutton%253E%250A%2520%2520%253Cbutton%2520class%253D%2522btn%2520outline-warning-btn%2522%253EWarning%253C%252Fbutton%253E%250A%2520%2520%253Cbutton%2520class%253D%2522btn%2520outline-danger-btn%2522%253EDanger%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%250A"
+                        style=" height: 200px;  border:0; transform: scale(1); overflow:hidden;"
+                        sandbox="allow-scripts allow-same-origin">
+                    </iframe>
+                </div>
+
+                <!-- links-->
+
+                <br><br>
+                <h3 class="h3">Link Buttons</h3><br>
+                <div class="btn-container">
+                <div class="link-btn">
+                    <a href="#" class="btn link-primary-btn">Link 1</a>
+                    <a href="#" class="btn link-secondary-btn">Link 2</a>
+                </div>
+                </div>
+
+                <div>
+                    <iframe id="frame"
+                        src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=vscode&wt=none&l=auto&width=680&ds=true&dsyoff=61px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%2520%253Cdiv%2520class%253D%2522link-btn%2522%253E%250A%2520%2520%2520%2520%253Ca%2520href%253D%2522%2523%2522%2520class%253D%2522btn%2520link-primary-btn%2522%253ELink%25201%253C%252Fa%253E%250A%2520%2520%2520%2520%253Ca%2520href%253D%2522%2523%2522%2520class%253D%2522btn%2520link-secondary-btn%2522%253ELink%25202%253C%252Fa%253E%250A%2520%2520%253C%252Fdiv%253E%250A"
+                        style=" height: 200px; border:0; transform: scale(1); overflow:hidden;"
+                        sandbox="allow-scripts allow-same-origin">
+                    </iframe>
+                </div>
+              
+                
+                <!-----icon----->
+
+                <br><br>
+                <h2 class="grey mb2">Icon Buttons</h2>
+                <div class="btn-container">
+                <button class="icon-btn"> <i class="fa fa-share-alt fa-1x"></i>
+                </button>
+                <button class="icon-btn"> <i class="fa fa-ellipsis-v fa-1x"></i>
+                </button>
+                <button class="icon-btn"> <i class="fa fa-bars"></i>
+                </button>
+                <button class="icon-btn"> <i class="fa fa-thumbs-o-up"></i>
+                </button>
+                </div>
+
+            </div>
+
+            <div>
+                <iframe id="frame"
+                    src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=vscode&wt=none&l=auto&width=680&ds=true&dsyoff=61px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%2520%2520%2520%2520%253Cbutton%2520class%253D%2522icon-btn%2522%253E%2520%253Ci%2520class%253D%2522fa%2520fa-share-alt%2520fa-1x%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fbutton%253E%250A%2520%2520%2520%2520%253Cbutton%2520class%253D%2522icon-btn%2522%253E%2520%253Ci%2520class%253D%2522fa%2520fa-ellipsis-v%2520fa-1x%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fbutton%253E%250A%2520%2520%2520%2520%253Cbutton%2520class%253D%2522icon-btn%2522%253E%2520%253Ci%2520class%253D%2522fa%2520fa-bars%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fbutton%253E%250A%2520%2520%2520%2520%253Cbutton%2520class%253D%2522icon-btn%2522%253E%2520%253Ci%2520class%253D%2522fa%2520fa-thumbs-o-up%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fbutton%253E%250A"
+                    style=" height: 200px;  border:0; transform: scale(1); overflow:hidden;"
+                    sandbox="allow-scripts allow-same-origin">
+                </iframe>
+            </div>
+
+            <!--floating button-->
+            <br><br>
+            <h2 class="grey mb2">Floating Buttons</h2>
+            <div class="btn-container">
+            <a href="#" class="float">
+                <i class="fa fa-plus my-float fa-2x"></i>
+            </a>
+    </div>
+            <br><br>
+            <div >
+                <iframe id="frame"
+                src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=vscode&wt=none&l=auto&width=680&ds=true&dsyoff=61px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%2520%253Ca%2520href%253D%2522%2523%2522%2520class%253D%2522float%2522%253E%250A%2520%2520%2520%2520%253Ci%2520class%253D%2522fa%2520fa-plus%2520my-float%2520fa-2x%2522%253E%253C%252Fi%253E%250A%2520%253C%252Fa%253E"
+                style=" height: 200px;  border:0; transform: scale(1); overflow:hidden;"
+                sandbox="allow-scripts allow-same-origin">
+              </iframe>
+            </div>
+
+    </div>
+
+    <footer>
+        <p>Made By Juvita Saini </p>
+    </footer>
+</body>
+
+</html>
