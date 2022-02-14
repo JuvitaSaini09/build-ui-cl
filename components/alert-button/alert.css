@@ -11,7 +11,7 @@ alert-container{
 }
 
 .alert{
-    width:400px;
+    width:25rem;
     padding: 10px;
     text-align:left;
     flex-basis:50px;
