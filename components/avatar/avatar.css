@@ -1,0 +1,80 @@
+:root{
+    --blue-violet:blueviolet;
+    --orange:orange;
+    --pink:pink;
+
+
+}
+.avatar {
+    vertical-align:middle;
+    font-size: 1.5rem;
+    color:white;
+    margin-bottom: 4rem;
+}
+.avatar-container{
+  margin-left:0;
+  border:1px solid grey;
+  padding:1.56rem;
+  width:80%;
+  background-color: rgb(248, 244, 244);
+}
+
+/* round avatar*/
+
+.avatar-xl {
+    height: 6.25rem;
+    width: 6.25rem;
+    border-radius: 50%;
+}
+
+.avatar-l {
+    height: 5rem;
+    width: 5rem;
+    border-radius: 50%;
+    background-color:var(--orange);
+}
+
+.avatar-m {
+    height: 3.75rem;
+    width: 3.75rem;
+    border-radius: 50%;
+    background-color:var(--pink);
+}
+
+.avatar-s {
+    height: 2.5rem;
+    width: 2.5rem;
+    border-radius: 50%;
+    background-color: var(--blue-violet);
+}
+
+/*square avatar */
+
+
+.sq-avatar-xl {
+    height: 6.25rem;
+    width: 6.25rem;
+    border-radius: 3px;
+    
+}
+
+.sq-avatar-l {
+    height: 5rem;
+    width: 5rem;
+    border-radius: 3px;
+    background-color:var(--orange);
+}
+
+.sq-avatar-m {
+    height: 60px;
+    width: 60px;
+    border-radius: 3px;
+    background-color: var(--pink);
+}
+
+.sq-avatar-s {
+    height: 2.5rem;
+    width: 2.5rem;
+    border-radius: 3px;
+    background-color:var(--blue-violet);
+}
