@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/main.css">
+    <link rel="stylesheet" href="/doc.css">
+    <link rel="stylesheet" href="/components/list/list.css">
+    <script src="https://kit.fontawesome.com/9c98d67da5.js" crossorigin="anonymous"></script>
+    <title>Avatar</title>
+</head>
+
+<body>
+
+    <nav>
+        <logo class="logo">BuildUI</logo>
+        <ul class="nav-links">
+            <li><a href="#">HOME</a></li>
+            <li><a href="#">DOCUMENTATION</a></li>
+        </ul>
+    </nav>
+
+    <input type="checkbox" id="check">
+    <label for="check"><i class="fas fa-bars" id="btn"></i><i class="fas fa-times" id="cancel"></i></label>
+
+    <div class="side-drawer">
+        <ul>
+            <header>Components</header>
+            <li><a href="/components/html/alert.html">Alert</a></li>
+            <li><a href="/components/html/avatar.html">Avatar</a></li>
+            <li><a href="#">Badge</a></li>
+            <li><a href="/components/html/button.html">Button</a></li>
+            <li><a href="/components/html/card.html">Card</a></li>
+            <li><a href="/components/html/image.html">Image</a></li>
+            <li><a href="/components/html/input.html">Input</a></li>
+            <li><a href="/components/html/text-ut.html">Text Utilities</a></li>
+            <li><a href="/components/html/list.html">Lists</a></li>
+            <li><a href="/components/html/nav.html">Navigation-Desktop</a></li>
+            <li><a href="/components/html/modal.html">Modal</a></li>
+            <li><a href="/components/html/rating.html">Rating</a></li>
+            <li><a href="/components/html/toast.html">Toast/Snackbar</a></li>
+            <li><a href="/components/html/card.html">Simplified Grid</a></li>
+        </ul>
+    </div>
+
+    <div class="Component-container">
+
+      
+            <!---------List componenet-------->
+            <div class="text pb2 " id="list">
+                <h2 class="pb1 h2 comp-title">Alerts</h2><br>
+                <p>HTML lists allow web developers to group a set of related items in lists.</p>
+                <h2 class="mt2">Examples</h2>
+            </div>
+            
+            <h2 class="grey mb2">Simple List:ordered and unordered</h2>
+            <div class="list-container ml3">
+                <ol class="ol-list">
+                    <li>Item 1</li>
+                    <li>Item 2</li>
+                    <li>Item 3</li>
+                    <li>Item 4</li>
+                </ol>
+            </div>
+            <div >
+                <iframe id="frame"
+                src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=vscode&wt=none&l=auto&width=680&ds=true&dsyoff=61px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%2520%253Cdiv%2520class%253D%2522list-container%2520ml3%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Col%2520class%253D%2522ol-list%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cli%253EItem%25201%253C%252Fli%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cli%253EItem%25202%253C%252Fli%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cli%253EItem%25203%253C%252Fli%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cli%253EItem%25204%253C%252Fli%253E%250A%2520%2520%2520%2520%2520%2520%2520%253C%252Fol%253E%250A%2520%253C%252Fdiv%253E"
+                style=" height: 200px;  border:0; transform: scale(1); overflow:hidden;"
+                sandbox="allow-scripts allow-same-origin">
+              </iframe>
+            </div>
+
+            <div class="list-container ml3">
+                <ul class="un-list">
+                    <li>Item 1</li>
+                    <li>Item 2</li>
+                    <li>Item 3</li>
+                    <li>Item 4</li>
+                </ul>
+            </div>
+
+            <div>
+                <iframe id="frame"
+                src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=vscode&wt=none&l=auto&width=680&ds=true&dsyoff=61px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522list-container%2520ml3%2522%253E%250A%2520%2520%2520%2520%253Cul%2520class%253D%2522un-list%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cli%253EItem%25201%253C%252Fli%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cli%253EItem%25202%253C%252Fli%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cli%253EItem%25203%253C%252Fli%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cli%253EItem%25204%253C%252Fli%253E%250A%2520%2520%2520%2520%2520%253C%252Ful%253E%250A%2520%253C%252Fdiv%253E"
+                style=" height: 200px; border:0; transform: scale(1); overflow:hidden;"
+                sandbox="allow-scripts allow-same-origin">
+              </iframe>
+            </div>
+
+
+            <div class="list-container ml3">
+                <ul class="simple-list">
+                    <li>Item 1</li>
+                    <li>Item 2</li>
+                    <li>Item 3</li>
+                    <li>Item 4</li>
+                </ul>
+            </div>
+
+            <div >
+                <iframe id="frame"
+                src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=vscode&wt=none&l=auto&width=680&ds=true&dsyoff=61px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%2520%253Cdiv%2520class%253D%2522list-container%2520ml3%2522%253E%250A%2520%2520%2520%253Cul%2520class%253D%2522simple-list%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%253Cli%253EItem%25201%253C%252Fli%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cli%253EItem%25202%253C%252Fli%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cli%253EItem%25203%253C%252Fli%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cli%253EItem%25204%253C%252Fli%253E%250A%2520%2520%2520%253C%252Ful%253E%250A%253C%252Fdiv%253E"
+                style=" height: 200px;border:0; transform: scale(1); overflow:hidden;"
+                sandbox="allow-scripts allow-same-origin">
+              </iframe>
+            </div>
+
+
+            <h2 class="grey mb2">Stacked list</h2>
+            <div class="list-container ml3">
+
+                <ul class="simple-list">
+
+                  
+                    <li> <button>X</button>you have 2 messages <span class="stack-list-time">2hr ago</span>
+                        <div><span class="stack-list-sub">test notification</span></div>
+                    </li>
+
+                    <li> <button>X</button>you have 2 messages <span class="stack-list-time">2hr ago</span>
+                        <div><span class="stack-list-sub">test notification</span></div>
+                    </li>
+                    
+                    <li> <button>X</button>you have 4 messages <span class="stack-list-time">1hr ago</span>
+                        <div><span class="stack-list-sub">test notification</span></div>
+                    </li>
+
+                    <li> <button>X</button>you have 1 message <span class="stack-list-time">30min ago</span>
+                        <div><span class="stack-list-sub">test notification</span></div>
+                    </li>
+                </ul>
+            </div>
+
+            <div>
+                <iframe id="frame"
+                src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=vscode&wt=none&l=auto&width=680&ds=true&dsyoff=61px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522list-container%2520ml3%2522%253E%250A%250A%2520%2520%2520%2520%2520%253Cul%2520class%253D%2522simple-list%2522%253E%250A%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cli%253E%2520%253Cbutton%253EX%253C%252Fbutton%253Eyou%2520have%25202%2520messages%2520%253Cspan%2520class%253D%2522stack-list-time%2522%253E2hr%2520ago%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%253E%253Cspan%2520class%253D%2522stack-list-sub%2522%253Etest%2520notification%253C%252Fspan%253E%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fli%253E%250A%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cli%253E%2520%253Cbutton%253EX%253C%252Fbutton%253Eyou%2520have%25202%2520messages%2520%253Cspan%2520class%253D%2522stack-list-time%2522%253E2hr%2520ago%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%253E%253Cspan%2520class%253D%2522stack-list-sub%2522%253Etest%2520notification%253C%252Fspan%253E%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fli%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cli%253E%2520%253Cbutton%253EX%253C%252Fbutton%253Eyou%2520have%25204%2520messages%2520%253Cspan%2520class%253D%2522stack-list-time%2522%253E1hr%2520ago%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%253E%253Cspan%2520class%253D%2522stack-list-sub%2522%253Etest%2520notification%253C%252Fspan%253E%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fli%253E%250A%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cli%253E%2520%253Cbutton%253EX%253C%252Fbutton%253Eyou%2520have%25201%2520message%2520%253Cspan%2520class%253D%2522stack-list-time%2522%253E30min%2520ago%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%253E%253Cspan%2520class%253D%2522stack-list-sub%2522%253Etest%2520notification%253C%252Fspan%253E%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fli%253E%250A%2520%2520%2520%2520%2520%2520%253C%252Ful%253E%250A%2520%253C%252Fdiv%253E"
+                style=" height: 200px; border:0; transform: scale(1); overflow:hidden;"
+                sandbox="allow-scripts allow-same-origin">
+              </iframe>
+            </div>
+
+    </div>
+
+    <footer>
+        <p>Made By Juvita Saini </p>
+    </footer>
+</body>
+
+</html>
