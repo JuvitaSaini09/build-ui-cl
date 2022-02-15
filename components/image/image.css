@@ -10,7 +10,7 @@
     width:fit-content;
     background-color: var(--white-light);
 }
-.img-parent img{
+.img-round{
     width:100%;
     height: auto;
 }
