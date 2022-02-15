@@ -1,0 +1,147 @@
+:root{
+    --blueviolet:blueviolet;
+    --pink:pink;
+    --orange:orange;
+    --red:red;
+    --white:white;
+    --green:rgb(21, 179, 21);
+    --blue:rgb(37, 171, 224) ;
+    --aqua:aqua;
+    --grey:grey;
+}
+
+.badge-container {
+    display: flex;
+    gap: 1rem;
+    align-items: baseline;
+    border:1px solid var(--grey);
+    padding:25px;
+    width:80%;
+    background-color: rgb(248, 244, 244);
+    margin-bottom:1rem;
+  }
+  
+  .badge-parent {
+    position: relative;
+    max-width: fit-content;
+    padding: 3px;
+  }
+  
+  .badge {
+    position: absolute;
+    background-color: var(--red);
+    color: var(--white);
+    max-width: fit-content;
+    border-radius: 50%;
+    text-align: center;
+    padding: 5px;
+    top: 0px;
+    right: 0px;
+    border: 2px solid var(--white);
+  }
+  
+  .bell-badge {
+    height: 30px;
+    width: 3rem;
+    left: 2rem;
+  }
+  
+  .whatsapp-icon {
+    color: var(--green);
+  }
+  
+  .twitter-icon {
+    left: 5px;
+    color: var(--blue);
+  }
+  
+  .twitter-badge,
+  .whatsapp-badge {
+    height: 30px;
+    width: 30px;
+    left: 2.7rem;
+  }
+  
+  .avatar-badge {
+    background-color:var(--aqua);
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+  
+  }
+  
+  .avatar-badge-parent {
+    position: relative;
+  
+  }
+  
+  .avatar-badge {
+    position: absolute;
+    bottom: 5px;
+    right: 0px;
+    z-index: 2;
+    border: 2px white solid;
+  }
+  
+  
+  .avatar-xl {
+    bottom: 70px;
+    right: 5px;
+  }
+  
+  .avatar-l {
+    bottom: 62.5rem;
+    right: 0px;
+  }
+  
+  .avatar-m {
+    bottom: 65px;
+    right: 0px;
+  }
+  
+  
+  .online {
+    background-color: var(--green);
+  }
+  
+  .offline {
+    background-color: var(--grey);
+  }
+  
+  .busy {
+    background-color:var(--red);
+  }
+  /* round avatar*/
+
+.avatar-xl {
+    height: 6.25rem;
+    width: 6.25rem;
+    border-radius: 50%;
+}
+
+.avatar-l {
+    height:5rem;
+    width: 5rem;
+    border-radius: 50%;
+    background-color:var(--orange);
+}
+
+.avatar-m {
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    background-color:var(--pink);
+}
+
+.avatar-s {
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    background-color: var(--blueviolet);
+}
+
+@media screen and (max-width:658px){
+    .badge-container {
+        width:fit-content;
+    }
+}
