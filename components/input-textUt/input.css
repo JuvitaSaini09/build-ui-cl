@@ -1,8 +1,15 @@
+:root{
+    --white-light:rgb(231, 224, 224);
+    --grey:grey;
+    --green: rgb(19, 197, 19);
+    --red:red;
+    --orange:rgb(197, 128, 0);
+}
 .text-input-container {
     width: 20rem;
     padding: 10px;
-    background-color: rgb(231, 224, 224);
-    border: 1px solid grey;
+    background-color:var(--white-light);
+    border: 1px solid var(--grey);
     padding: 25px;
     width: 60%;
 
@@ -19,15 +26,15 @@
 }
 
 #success {
-    border-color: rgb(19, 197, 19);
+    border-color:var(--green);
 }
 
 #warn {
-    border-color: rgb(197, 128, 0);
+    border-color:var(--orange) ;
 }
 
 #error {
-    border-color: red;
+    border-color: var(--red);
 }
 
 @media screen and (max-width:652px) {
