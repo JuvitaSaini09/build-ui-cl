@@ -1,0 +1,16 @@
+.grey-text {
+    color: grey;
+}
+
+.typography-container>* {
+    padding-bottom: 2rem;
+}
+
+.typography-container {
+    width: 90%;
+    border: 1px solid rgb(185, 177, 177);
+    border: 1px solid grey;
+    padding: 25px;
+    width: 90%;
+    background-color: rgb(248, 244, 244);
+}
