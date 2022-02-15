@@ -1,0 +1,31 @@
+
+:root{
+    --grey:grey;
+    --white-light:rgb(248, 244, 244);
+}
+.img-parent{
+    width:31.25rem;
+    border:1px solid var(--grey);
+    padding:1.56rem;
+    width:fit-content;
+    background-color: var(--white-light);
+}
+.img-round{
+    width:100%;
+    height: auto;
+}
+.round-img img{
+    width:20rem;
+    height:20rem;
+    border-radius:50%;
+}
+@media screen and (max-width:900px) {
+    .img-parent{
+        width:25rem;
+    }
+    .round-img img{
+        width:15rem;
+        height:15rem;
+        border-radius:50%;
+    }
+}
