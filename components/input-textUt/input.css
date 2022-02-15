@@ -1,0 +1,44 @@
+:root{
+    --white-light:rgb(231, 224, 224);
+    --grey:grey;
+    --green: rgb(19, 197, 19);
+    --red:red;
+    --orange:rgb(197, 128, 0);
+}
+.text-input-container {
+    width: 20rem;
+    padding: 10px;
+    background-color:var(--white-light);
+    border: 1px solid var(--grey);
+    padding: 25px;
+    width: 60%;
+
+}
+
+.text-input {
+    font-size: 1rem;
+    padding: 5px;
+    height: auto;
+    width: 96%;
+    border-radius: 3px;
+    margin: 5px;
+    border-width: 2px;
+}
+
+#success {
+    border-color:var(--green);
+}
+
+#warn {
+    border-color:var(--orange) ;
+}
+
+#error {
+    border-color: var(--red);
+}
+
+@media screen and (max-width:652px) {
+    .text-input-container {
+        width: 80%;
+    }
+}

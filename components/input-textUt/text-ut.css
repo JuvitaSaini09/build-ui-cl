@@ -1,0 +1,29 @@
+
+:root{
+    --grey:grey;
+    --light-grey:rgb(185, 177, 177);
+    --white-light: rgb(248, 244, 244);
+
+}
+.grey-text {
+    color: var(--grey);
+}
+
+.typography-container>* {
+    padding-bottom: 2rem;
+}
+
+.typography-container {
+    width: 90%;
+    border: 1px solid var(--light-grey);
+    border: 1px solid var(--grey);
+    padding: 25px;
+    width: 90%;
+    background-color:var(--white-light);
+}
+.small-text{
+   font-size:12px;
+}
+.center-text{
+ text-align: center;
+}
