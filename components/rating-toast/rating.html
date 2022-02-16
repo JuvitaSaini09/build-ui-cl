@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/main.css">
+    <link rel="stylesheet" href="/doc.css">
+    <link rel="stylesheet" href="/components/rating-toast/rating.css">
+    <script src="https://kit.fontawesome.com/9c98d67da5.js" crossorigin="anonymous"></script>
+    <title>Avatar</title>
+</head>
+
+<body>
+
+    <nav>
+        <logo class="logo">BuildUI</logo>
+        <ul class="nav-links">
+            <li><a href="#">HOME</a></li>
+            <li><a href="#">DOCUMENTATION</a></li>
+        </ul>
+    </nav>
+
+    <input type="checkbox" id="check">
+    <label for="check"><i class="fas fa-bars" id="btn"></i><i class="fas fa-times" id="cancel"></i></label>
+
+    <div class="side-drawer">
+        <ul>
+            <header>Components</header>
+            <li><a href="/components/html/alert.html">Alert</a></li>
+            <li><a href="/components/html/avatar.html">Avatar</a></li>
+            <li><a href="/components/html/badge.html">Badge</a></li>
+            <li><a href="/components/html/button.html">Button</a></li>
+            <li><a href="/components/html/card.html">Card</a></li>
+            <li><a href="/components/html/image.html">Image</a></li>
+            <li><a href="/components/html/input.html">Input</a></li>
+            <li><a href="/components/html/text-ut.html">Text Utilities</a></li>
+            <li><a href="/components/html/list.html">Lists</a></li>
+            <li><a href="/components/html/nav.html">Navigation-Desktop</a></li>
+            <li><a href="/components/html/modal.html">Modal</a></li>
+            <li><a href="#">Rating</a></li>
+            <li><a href="/components/html/toast.html">Toast/Snackbar</a></li>
+            <li><a href="/components/html/card.html">Simplified Grid</a></li>
+        </ul>
+    </div>
+
+    <div class="Component-container">
+
+         <!---------Star componenet-------->
+         <div class="text pb2 " id="rate">
+            <h2 class="pb1 h2 comp-title">Star Rating</h2><br>
+            <p class="pb2">Star rating is used to give feedback .</p>
+            <h3>Example</h3>
+        </div>
+   <div class="rating-container">
+        <ul class="stars">
+            <li class="star"><i class="fas fa-star"></i></li>
+            <li class="star"><i class="fas fa-star"></i></li>
+            <li class="star"><i class="fas fa-star"></i></li>
+            <li class="star"><i class="fas fa-star"></i></li>
+            <li class="star"><i class="fas fa-star"></i></li>
+        </ul>
+        <div class="star-rating">Rating</div>
+    </div>
+
+    <div >
+        <iframe id="frame"
+        src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=vscode&wt=none&l=auto&width=680&ds=true&dsyoff=61px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%2520%253Cdiv%2520class%253D%2522rating-container%2522%253E%250A%2520%2520%2520%2520%253Cul%2520class%253D%2522stars%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%253Cli%2520class%253D%2522star%2522%253E%253Ci%2520class%253D%2522fas%2520fa-star%2522%253E%253C%252Fi%253E%253C%252Fli%253E%250A%2520%2520%2520%2520%2520%2520%2520%253Cli%2520class%253D%2522star%2522%253E%253Ci%2520class%253D%2522fas%2520fa-star%2522%253E%253C%252Fi%253E%253C%252Fli%253E%250A%2520%2520%2520%2520%2520%2520%2520%253Cli%2520class%253D%2522star%2522%253E%253Ci%2520class%253D%2522fas%2520fa-star%2522%253E%253C%252Fi%253E%253C%252Fli%253E%250A%2520%2520%2520%2520%2520%2520%2520%253Cli%2520class%253D%2522star%2522%253E%253Ci%2520class%253D%2522fas%2520fa-star%2522%253E%253C%252Fi%253E%253C%252Fli%253E%250A%2520%2520%2520%2520%2520%2520%2520%253Cli%2520class%253D%2522star%2522%253E%253Ci%2520class%253D%2522fas%2520fa-star%2522%253E%253C%252Fi%253E%253C%252Fli%253E%250A%2520%2520%2520%2520%253C%252Ful%253E%250A%2520%2520%2520%253Cdiv%2520class%253D%2522star-rating%2522%253ERating%253C%252Fdiv%253E%250A%2520%253C%252Fdiv%253E"
+        style=" height: 200px; border:0; transform: scale(1); overflow:hidden;"
+        sandbox="allow-scripts allow-same-origin">
+      </iframe>
+    </div>
+    </div>
+
+    <footer>
+        <p>Made By Juvita Saini </p>
+    </footer>
+    <script src="/components/rating-toast/rating.js" type="text/javascript"></script>
+</body>
+
+</html>
