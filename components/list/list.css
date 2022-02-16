@@ -1,0 +1,51 @@
+:root{
+    --grey:grey;
+    --grey-dark:rgb(61, 58, 58);
+    --grey-light:rgb(153, 148, 148);
+    --white-light:rgb(224, 222, 222);
+}
+
+.list-container{
+    font-size:1.75rem;
+    width:25rem;
+    
+}
+.ol-list li{
+    list-style:decimal;
+    padding:5px;
+}
+.un-list li{
+    list-style:disc;
+    padding:5px;
+}
+.simple-list{
+    border-radius:5px;
+    border:1px solid var(--white-light);
+}
+.simple-list li{
+    border:1px solid var(--white-light);
+    width:100%;
+    padding:0.6rem;
+}
+.list-container button{
+    background-color: var(--grey);
+    font-size: 20px;
+    font-weight:bold;
+    margin-right:1rem;
+    height:1.87rem;
+    width:1.87rem;
+    border-radius:50%;
+}
+.list-container button:hover{
+   background-color: var(--grey-light);
+}
+.stack-list-time{
+    color:var(--grey-dark) ;
+    font-size:14px;
+    padding-left:3rem;
+}
+.stack-list-sub{
+    color: var(--grey-dark);
+    font-size:0.87rem;
+    margin-left:3rem;
+}
