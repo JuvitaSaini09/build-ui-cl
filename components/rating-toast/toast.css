@@ -8,18 +8,18 @@
 
 .main-toast {
     width: 80%;
-    height: 100px;
+    height: 6.25rem;
     display: flex;
     align-items: center;
 }
 
 .toast-container div {
-    font-size: 18px;
+    font-size: 1.12rem;
     margin-left: 5px;
 }
 
 .toast-container {
-    height: 50px;
+    height: 3.12rem;
     width: 100%;
     color: var(--white);
     background-color: var(--grey-dark);
@@ -40,7 +40,6 @@
     width: 3.12rem;
     height: 3.12rem;
     font-size: 1.25rem;
-
 }
 
 .toast-icon {
