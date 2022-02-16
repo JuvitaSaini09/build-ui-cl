@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/main.css">
+    <link rel="stylesheet" href="/doc.css">
+    <link rel="stylesheet" href="/components/nav-modal/modal.css">
+    <script src="https://kit.fontawesome.com/9c98d67da5.js" crossorigin="anonymous"></script>
+    <title>Avatar</title>
+</head>
+
+<body>
+
+    <nav>
+        <logo class="logo">BuildUI</logo>
+        <ul class="nav-links">
+            <li><a href="#">HOME</a></li>
+            <li><a href="#">DOCUMENTATION</a></li>
+        </ul>
+    </nav>
+
+    <input type="checkbox" id="check">
+    <label for="check"><i class="fas fa-bars" id="btn"></i><i class="fas fa-times" id="cancel"></i></label>
+
+    <div class="side-drawer">
+        <ul>
+            <header>Components</header>
+            <li><a href="/components/html/alert.html">Alert</a></li>
+            <li><a href="/components/html/avatar.html">Avatar</a></li>
+            <li><a href="/components/html/badge.html">Badge</a></li>
+            <li><a href="/components/html/button.html">Button</a></li>
+            <li><a href="/components/html/card.html">Card</a></li>
+            <li><a href="/components/html/image.html">Image</a></li>
+            <li><a href="/components/html/input.html">Input</a></li>
+            <li><a href="/components/html/text-ut.html">Text Utilities</a></li>
+            <li><a href="/components/html/list.html">Lists</a></li>
+            <li><a href="/components/html/nav.html">Navigation-Desktop</a></li>
+            <li><a href="#">Modal</a></li>
+            <li><a href="/components/html/rating.html">Rating</a></li>
+            <li><a href="/components/html/toast.html">Toast/Snackbar</a></li>
+            <li><a href="/components/html/card.html">Simplified Grid</a></li>
+        </ul>
+    </div>
+
+    <div class="Component-container">
+
+        <!---------Modal componenet-------->
+        <div class="text pb2 " id="modal">
+            <h2 class="pb1 h2 comp-title">Modal</h2><br>
+            <p class="pb2">Add dialogs to your site for lightboxes, user notifications, or completely custom content.
+            </p>
+            <h3>Example</h3>
+        </div>
+
+        <div class="modal-container">
+            <div class="modals modal-row1">
+                <h3>Modal Title</h3><button class="modal-close">X</button>
+            </div>
+            <div class="modals modal-row2">
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Unde, ipsam!</p>
+            </div>
+            <div class="modals modal-row3"><button class="close">Close</button><button class="save">Save
+                    changes</button></div>
+        </div>
+
+        <div>
+            <iframe id="frame"
+                src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=vscode&wt=none&l=auto&width=680&ds=true&dsyoff=61px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%250A%2520%253Cdiv%2520class%253D%2522modal-container%2522%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522modals%2520modal-row1%2522%253E%253Ch3%253EModal%2520Title%253C%252Fh3%253E%253Cbutton%2520class%253D%2522modal-close%2522%253EX%253C%252Fbutton%253E%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522modals%2520modal-row2%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%253ELorem%2520ipsum%2520dolor%252C%2520sit%2520amet%2520consectetur%2520adipisicing%2520elit.%2520Unde%252C%2520ipsam%21%253C%252Fp%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522modals%2520modal-row3%2522%253E%253Cbutton%2520class%253D%2522close%2522%253EClose%253C%252Fbutton%253E%253Cbutton%2520class%253D%2522save%2522%253ESave%2520changes%253C%252Fbutton%253E%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
+                style=" height: 200px;  border:0; transform: scale(1); overflow:hidden;"
+                sandbox="allow-scripts allow-same-origin">
+            </iframe>
+        </div>
+
+    </div>
+
+    <footer>
+        <p>Made By Juvita Saini </p>
+    </footer>
+</body>
+
+</html>
