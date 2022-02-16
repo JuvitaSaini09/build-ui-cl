@@ -1,0 +1,33 @@
+:root{
+    --black:black;
+    --brown:brown;
+    --white:white;   
+}
+
+.grid-container{
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    margin:2rem;
+    gap:5px;
+    border:2px solid var(--black);
+    padding:1rem;
+    width:90%;
+}
+
+.grid-item{
+    color:var(--white);
+    background-color: var(--brown);
+    padding:5px;
+    text-align:center;
+    font-size:30px;
+ }
+
+ .grid2-container{
+    border:2px solid var(--black);
+    padding:1rem;
+    gap:5px;
+    display:grid;
+    grid-template-columns:repeat(3,1fr);
+    width:90%;
+ }
+    
