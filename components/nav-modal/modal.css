@@ -28,12 +28,12 @@
 
 .modal-row3 {
     display: flex;
-    justify-content: right;
+    justify-content:flex-end;
     border-top: 1px solid var(--grey);
 }
 
 .modal-close {
-    font-size: 34px;
+    font-size: 2.12rem;
     color: var(--grey-dark);
     background-color: var(--white);
     border: none;
@@ -45,11 +45,11 @@
 }
 
 .modal-row2 {
-    font-size: 16px;
+    font-size: 1rem;
 }
 
 .modal-row3 button {
-    font-size: 18px;
+    font-size: 1.12rem;
     padding: 5px;
     margin-left: 5px;
     color: var(--white);
