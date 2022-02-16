@@ -32,7 +32,7 @@
 
 }
 
-.toast-btn{
+.btn-toast{
     background-color: var(--grey-dark);
     color: var(--purple-light);
     padding: 0px;
@@ -54,7 +54,7 @@
     background-color: rgb(71, 65, 65);
 }
 
-.toast-btns{
+.btns-toast{
     display: flex;
     justify-content: flex-end;
 }
