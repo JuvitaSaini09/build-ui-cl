@@ -1,0 +1,81 @@
+:root {
+    --grey: grey;
+    --white-light: rgb(248, 244, 244);
+    --white: white;
+    --peacock: #084f70;
+    --blue: #1b9bff;
+
+}
+
+.nav-container-C {
+    border: 1px solid avr(--grey);
+    padding: 1.56rem 0.32rem 1.56rem 0.32rem;
+    width: 80%;
+    background-color: var(--white-light);
+}
+
+.navbar-comp {
+    color: var(--white);
+    width: 100%;
+    background-color: var(--peacock);
+    height: 4.06rem;
+    top: 0;
+}
+
+.navbar-comp ul {
+    float: right;
+    margin-right: 2rem;
+}
+
+.logo-C {
+    font-size: 2.12rem;
+    line-height: 3.1rem;
+    margin-left: 2.5rem;
+}
+
+.nav-links-C li {
+    font-size: 17px;
+    display: inline-block;
+    line-height: 3.75rem;
+    padding-right: 1.25rem;
+    cursor: pointer;
+}
+
+.nav-links-C a {
+    color: var(--white);
+    padding: 0.
+}
+
+.nav-links-C a:hover,
+.nav-links-C a:active {
+    background-color: var(--blue);
+    padding: 0.62rem;
+}
+
+
+@media screen and (max-width:1000px) {
+    .logo-C {
+        font-size: 1.68rem;
+        line-height: 3.1rem;
+        margin-left: 1.25rem;
+    }
+
+    .nav-links-C li {
+        font-size: 14px;
+        display: inline-block;
+        line-height: 3.75rem;
+        padding-right: 0;
+        cursor: pointer;
+    }
+
+    .nav-links-C a {
+        color: var(--white);
+        padding: 3px;
+    }
+}
+
+@media screen and (max-width:400px) {
+    .nav-container-C {
+        width: 100%;
+    }
+}

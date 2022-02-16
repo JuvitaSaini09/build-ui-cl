@@ -1,0 +1,76 @@
+:root {
+    --grey1: grey;
+    --grey2: rgb(100, 97, 97);
+    --grey: rgb(160, 156, 156);
+    --grey-dark: rgb(98, 97, 97);
+    --black: black;
+    --white: white;
+    --blue-dark: rgb(54, 89, 246);
+    --blue: rgb(26, 60, 212);
+}
+
+.modal-container {
+    width: 27rem;
+    font-size: 25px;
+    border: 1px solid var(--grey);
+}
+
+.modals {
+    padding: 1rem;
+    height: 5rem;
+}
+
+.modal-row1 {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid var(--grey);
+}
+
+.modal-row3 {
+    display: flex;
+    justify-content:flex-end;
+    border-top: 1px solid var(--grey);
+}
+
+.modal-close {
+    font-size: 2.12rem;
+    color: var(--grey-dark);
+    background-color: var(--white);
+    border: none;
+
+}
+
+.modal-close:hover {
+    color: var(--black);
+}
+
+.modal-row2 {
+    font-size: 1rem;
+}
+
+.modal-row3 button {
+    font-size: 1.12rem;
+    padding: 5px;
+    margin-left: 5px;
+    color: var(--white);
+    border-radius: 5px;
+    height: 2.5rem;
+    text-align: center;
+}
+
+.modal-row3 .close {
+    background-color: var(--grey1);
+}
+
+.modal-row3 .save {
+    background-color: var(--blue-dark);
+
+}
+
+.modal-row3 .close:hover {
+    background-color: var(--grey2);
+}
+
+.modal-row3 .save:hover {
+    background-color: var(--blue);
+}
