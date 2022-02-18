@@ -167,18 +167,28 @@ footer{
 
 @media screen and (max-width:658px) {
     .nav-links li{
-        font-size:20px;
-        padding-right:10px;
+        font-size:16px;
+        padding-right:5px;
     }
     .logo{
-        font-size:34px;
+        font-size:26px;
+        margin-left:10px;
     }
     nav ul{
         margin-right:0.5rem;
     }
     .text{
-        font-size:20px;
+        font-size:18px;
     }
+
+    .Component-container{
+        margin-left:20px;
+    }
+
+    nav ul{
+        margin-right:0.5rem;
+    }
+  
 }
 
 @media screen and (min-width:952px){
