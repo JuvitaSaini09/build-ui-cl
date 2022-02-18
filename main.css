@@ -323,7 +323,34 @@
 }
 
 /*index.html css */
-button{
-  color:white;
-background-color:rgb(5, 65, 65);
+
+.main{
+ margin-top:5rem;
 }
+
+.installation>*{
+  margin:1rem;
+  text-align: center;
+}
+
+.btn-explore{
+  height:3rem;
+  width:8rem;
+background-color:rgb(5, 65, 65);
+margin-left:40%;
+border-radius: 5px;
+}
+
+.btn-explore a{
+  font-size:1.3rem;
+  color:white;
+  text-decoration:none;
+}
+
+.btn-explore:hover{
+ background-color:rgb(10, 105, 105);
+}
+.body-home{
+  background-color:rgb(198, 243, 243);
+}
+
