@@ -197,7 +197,44 @@
 
   font-size:1rem;
 }
-.card6-text header{
+.card6-text header,.card8-text header{
   display:-webkit-inline-flex;
   gap:4px;
+}
+
+.btn-cart{
+  color:white;
+  background-color: rgb(10, 105, 105);
+  height:2rem;
+  width:10rem;
+  margin:0 0 0.5rem 1rem;
+  border-radius:5px;
+  border:none;
+}
+
+.btn-cart:hover{
+  background-color: rgb(15, 126, 126);
+}
+
+.cart-quantity{
+  margin:0 0 0.5rem 0.5rem;
+  font-size:1.2rem;
+  width:2rem;
+}
+
+.cart-quantity-btns{
+  margin-left:2rem;
+}
+
+.card7{
+  height: 14rem;
+  margin:1rem 0 0 1rem;
+}
+
+.cart-click-btns{
+   margin-bottom:0.5rem;
+}
+
+.card7 .card-image {
+   margin:1rem 0 0 1rem;
 }
