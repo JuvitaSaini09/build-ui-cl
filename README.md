@@ -9,11 +9,11 @@ BuildUI is a component Library built using HTML and CSS.You can use Component Li
 First,you need to import the links in this page :
 https://build-ui-component-library.netlify.app/index.html
 
-Import hese links in your file to use Component Library
+Import here links in your file to use Component Library
 
 ## How to run app ##
 
-To use any Component,you just first need to import the above link in you file and then just copy and paste the HTML of the components.
+To use any Component,first you need to import the above link in your file and then just copy and paste the HTML code of the components.
 
 ## video ##
 
