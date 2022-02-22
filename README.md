@@ -44,7 +44,7 @@ Here video will come
 
 Alert Provide contextual feedback messages for typical user actions with the handful of available and flexible alert messages.
 
-We have 6 types of alerts
+BuildUI have 6 types of alerts
 
 • Primary Alert
 • Secondary Alert
@@ -57,7 +57,7 @@ We have 6 types of alerts
 
 Avatars are images that users can set as their profile picture.
 
-We have 4 types of avatar
+BuildUI have 4 types of avatar
 
 • Round Avatar
 • Square Avatar
@@ -69,7 +69,7 @@ We have 4 types of avatar
 
 Badges provide additional information about a component like it's state whether it is active or not.
 
-we have 2 types of Badge
+BuildUI have 2 types of Badge
 
 • Badges on icons
 • Badges on Avatar
@@ -78,7 +78,7 @@ we have 2 types of Badge
 
 Buttons are main component of any website.They are highly used component.
 
-We have 4 buttons
+BuildUI have 4 buttons
 
 • Primary Buttons
 • Link Buttons
@@ -89,7 +89,7 @@ We have 4 buttons
 
 CSS cards are great for organizing and enhancing a website's user interface. Each card is uniquely designed to make it easy for users to read the card content.
 
-We have 7 types of cards
+BuildUI have 7 types of cards
 
 • Card with badges
 • Card with badges and dismiss
@@ -103,7 +103,7 @@ We have 7 types of cards
 
 Images are often used in websites.
 
-We have two types of images
+BuildUI have two types of images
 
 • Responsive Image
 • Round Image
@@ -112,7 +112,7 @@ We have two types of images
 
 Input Boxes are used to take data from user.There are simple text input element and validation input element ui.
 
-We have two types of Input
+BuildUI have two types of Input
 
 • Simple text input
 •  Validate Input
@@ -121,18 +121,18 @@ We have two types of Input
 
 Text of variant styles and sizes can be used according to their respective class names.
 
-We have 4 types of text
+BuildUI have 4 types of text
 
 •  Headings
 •  Small text
-• Grey text
+•  Grey text
 •  Center text
 
 ## 9. Lists ##
 
 HTML lists allow web developers to group a set of related items in lists.
 
-We have 2 types of lists
+BuildUI have 2 types of lists
 
 • Simple List:ordered and unordered
 • Stacked List
@@ -141,16 +141,16 @@ We have 2 types of lists
 
 Navigation Bar contain simply list of links which helps us to navigate to website.Here is as simple desktop navgation bar.
 
-We have one navigation bar component
+BuildUI have one navigation bar component
 
 ## 11. Modal ##
 
-Add dialogs to your site for lightboxes, user notifications, or completely custom content.We have one Modal component
+Add dialogs to your site for lightboxes, user notifications, or completely custom content.BuildUI have one Modal component.
 
 ## 12. Rating ##
 
 Star rating is used to give feedback .
-We have 5 star rating.You can use it in your feed back section of your websites.Its fully functional.
+BuildUI have 5 star rating.You can use it in your feed back section of your websites.Its fully functional.
 
 
 ## 13. Toast/Snackbar ##
@@ -161,9 +161,9 @@ Toasts are lightweight notifications designed to mimic the push notifications th
 
 A grid layout provides a versatile layout to place elements on the page.There are two grid layouts available two and three column layouts.
 
-We have two types of grid
+BuildUI have two types of grid
 
-• Simple List:ordered and unordered
+• Simple List : ordered and unordered
 • 3-Column-grid
 
 
