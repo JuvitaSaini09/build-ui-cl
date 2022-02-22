@@ -78,7 +78,7 @@
   
   .avatar-badge {
     position: absolute;
-    bottom: 5px;
+    bottom: 4rem;
     right: 0px;
     z-index: 2;
     border: 2px white solid;
