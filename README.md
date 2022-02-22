@@ -78,7 +78,7 @@ we have 2 types of Badge
 
 Buttons are main component of any website.They are highly used component.
 
-We have 5 buttons
+We have 4 buttons
 
 • Primary Buttons
 • Link Buttons
